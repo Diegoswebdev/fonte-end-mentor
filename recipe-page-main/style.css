@@ -11,32 +11,102 @@
 - Dark Charcoal: hsl(24, 5%, 18%)
 */
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-body{
-    background-color: hsl(330, 100%, 98%);
-    position: absolute;
-    height: 100vh;
-    border-radius: 10px;
-    margin: 10px;
-    padding: 10px;
+html, body{
+    background-color:hsl(30, 18%, 87%);
+    height: auto;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+
     
 }
 
-main{
+main{   
     background-color: hsl(0, 0%, 100%);
-    position: relative;
-    border-radius: 10px;
-    border: 1px solid black;
-    width: 666px;
-    
-    mr
+    border-radius: 10px;    
+    width: 666px;   
+   
 }
 
-img{
-    width: 650px;
+.one-section{    
+    margin: 20px;
+    padding: 20px;    
+}
+
+.one-section img{
+    display: block;
+    margin: auto;    
+    width: 39em;
+    border-radius: 10px;  
+}
+
+.one-section, h1 {
+    font-family: 'Young Serif';
+    color: hsl(24, 5%, 18%);
+    margin-top: 20px;
+}
+
+.one-section > h1 > p {
+    font-family: 'Outfit';
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+    margin-top: 20px;
+
+}
+
+.true-section{
+    background-color: hsl(30, 18%, 87%);
     border-radius: 10px;
-    border: 1px solid blue;
-    margin:10px;
-    
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.true-section > h3{
+    font-family: 'Outfit';
+    color: hsl(332, 51%, 32%);
+    margin: 10px;
+    padding: 5px;
+}
+
+.true-section > ul{
+    font-family: 'Outfit';
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+    margin-left: 50px;
+    padding: 5px;
     
 }
+
+.true-section > ul > li {
+    margin-top: 3px;
+    padding: 3px;
+}
+
+.three-section > h2{
+    font-family: 'Outfit';
+    font-weight: 900;
+    color: hsl(30, 10%, 34%);
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.three-section > ul{
+    margin-bottom: 14px;
+}
+
+.three-section > ul > li{
+    font-family: 'Outfit';
+    font-weight: 400;
+    margin-left: 25px;
+    padding: 5px;
+      
+}
+
