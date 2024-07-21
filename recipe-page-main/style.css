@@ -33,7 +33,8 @@ main{
     background-color: hsl(0, 0%, 100%);
     border-radius: 10px;
     width: 100%;
-    min-width: 100%;   
+    min-width: 100%;
+    overflow: hidden;   
    
 }
 
@@ -108,15 +109,68 @@ main{
 .three-section > ul > li{
     font-family: 'Outfit';
     font-weight: 400;
+    color: hsl(30, 10%, 34%);
     margin-left: 20px;
     padding: 5px;
       
 }
 
+.four-section h2{
+    font-family: 'Outfit';
+    font-weight: 900;
+    color: hsl(30, 10%, 34%);
+    margin-top: 20px;
+    margin-bottom: 5px;
+
+}
+.four-section ol{
+    color: hsl(30, 10%, 34%);
+    margin-bottom: 14px;
+}
+
+.four-section li{
+    font-family: 'Outfit';
+    font-weight: 400;
+    margin-left: 20px;
+    padding: 5px;
+}
+
+
+
+.five-section h2{
+    font-family: 'Outfit';
+    font-weight: 900;
+    color: hsl(30, 10%, 34%);
+    margin-top: 20px;
+    margin-bottom: 5px; 
+}
+
+.five-section p{
+    margin: 20px 0px 20px 0px;
+}
+
+.six-section{
+    font-family: 'Outfit';
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    justify-content: space-around;
+    align-content: center;
+    
+}
+
+hr{
+    margin: 10px;
+    color: hsl(30, 10%, 34%);
+}
+
+
+
 /* Estilos para telas maiores que 768px */
 @media (min-width: 768px) {
     main {
-        max-width: 666px; /* Define a largura máxima para tablets */
+        max-width: 800px; /* Define a largura máxima para tablets */
     }
 
     body {
